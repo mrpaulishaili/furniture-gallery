@@ -1,0 +1,27 @@
+{
+  "name": "furniture-gallery",
+  "version": "1.0.0",
+  "description": "This is an app project for Furniture Designers & Makers to showcase their works and products easily to potential clients.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrpaulishaili/furniture-gallery.git"
+  },
+  "keywords": [
+    "furniture",
+    "gallery",
+    "shop"
+  ],
+  "author": "Paul Ishaili C.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrpaulishaili/furniture-gallery/issues"
+  },
+  "homepage": "https://github.com/mrpaulishaili/furniture-gallery#readme",
+  "dependencies": {
+    "ejs": "^3.1.6"
+  }
+}
