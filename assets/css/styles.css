@@ -1,0 +1,22 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.app {
+  width: 90%;
+  max-width: 400px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 15px rgba(238, 238, 238, 0.753);
+          box-shadow: 0 0 15px rgba(238, 238, 238, 0.753);
+}
+
+.menu-icon {
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.menu-icon:hover {
+  opacity: 0.5;
+}
+/*# sourceMappingURL=styles.css.map */
