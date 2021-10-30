@@ -4,6 +4,7 @@
   "description": "This is an app project for Furniture Designers & Makers to showcase their works and products easily to potential clients.",
   "main": "app.js",
   "scripts": {
+    "start": "app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,10 @@
   },
   "homepage": "https://github.com/mrpaulishaili/furniture-gallery#readme",
   "dependencies": {
-    "ejs": "^3.1.6"
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
   }
 }
