@@ -1,28 +1,69 @@
 <%- include('modules/head'); %>
-  <body class="p-all_2">
-    <div class="header p-y_2 flex flex-j-sb">
-      <div class="logo">Furnitiure Gallery</div>
-      <div class="menu-icon">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
-          fill="currentColor"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M4 6h16M4 12h16M4 18h16"
-          />
-        </svg>
+<body class="p-all_2">
+  <!-- -----HEADER ----- -->
+
+  <%- include('components/header'); %>
+
+  <!-- ----- MAIN ----- -->
+  <main class="app p-all_2">
+    <h1 class="m-bottom_1 flex flex-all-center">GRID SYSTEM</h1>
+
+    <div class="row gap-2 justify-sb">
+      <div class="col-12-xs col-5-sm col-3-xl">
+        <div class="card rounded-radius_2 p-all_2">
+          <div class="card__image m-bottom_2 rounded-radius_2">
+            <img src="images/pexels-photo-1866149.jpeg" alt="" />
+          </div>
+          <h2 class="card__name responsive-text m-bottom_2">
+            Furniture Type 1
+          </h2>
+          <div class="card__description">
+            This is a furniture type one scalling thtrough to the very end.
+          </div>
+
+          <button class="m-top_2 p-x_2 p-y_1 rounded-radius_2">
+            Open Gallery
+          </button>
+        </div>
+      </div>
+      <div class="col-12-xs col-5-sm col-3-xl">
+        <div class="card rounded-radius_2 p-all_2">
+          <div class="card__image m-bottom_2 rounded-radius_2">
+            <img src="images/pexels-photo-1866149.jpeg" alt="" />
+          </div>
+          <h2 class="card__name responsive-text m-bottom_2">
+            Furniture Type 1
+          </h2>
+          <div class="card__description">
+            This is a furniture type one scalling thtrough to the very end.
+          </div>
+
+          <button class="m-top_2 p-x_2 p-y_1 rounded-radius_2">
+            Open Gallery
+          </button>
+        </div>
+      </div>
+      <div class="col-12-xs col-5-sm col-3-xl">
+        <div class="card rounded-radius_2 p-all_2">
+          <div class="card__image m-bottom_2 rounded-radius_2">
+            <img src="images/pexels-photo-1866149.jpeg" alt="" />
+          </div>
+          <h2 class="card__name responsive-text m-bottom_2">
+            Furniture Type 1
+          </h2>
+          <div class="card__description">
+            This is a furniture type one scalling thtrough to the very end.
+          </div>
+
+          <button class="m-top_2 p-x_2 p-y_1 rounded-radius_2">
+            Open Gallery
+          </button>
+        </div>
       </div>
     </div>
-    <div class="app flex flex-all-center flex-column p-all_2">
-      <h2 class="flex flex-all-center">Great God in Weekend</h2>
+  </main>
 
-      <button class="m-top_2 p-all_1">Open Gallery</button>
-    </div>
-  </body>
-</html>
+  <!-- ----- FOOTER ----- -->
+
+  <%- include('components/footer'); %>
+</body>
