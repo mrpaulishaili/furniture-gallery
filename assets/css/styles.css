@@ -19,6 +19,7 @@ body {
 }
 
 .card {
+  width: 100%;
   display: block;
   -webkit-box-shadow: 0 0 15px rgba(238, 238, 238, 0.753);
           box-shadow: 0 0 15px rgba(238, 238, 238, 0.753);

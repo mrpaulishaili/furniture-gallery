@@ -5,61 +5,27 @@
   <%- include('components/header'); %>
 
   <!-- ----- MAIN ----- -->
-  <main class="app p-all_2">
-    <h1 class="m-bottom_1 flex flex-all-center">GRID SYSTEM</h1>
+  <main class="app">
+    <h1 class="m-bottom_1 flex justify-c">GRID SYSTEM</h1>
 
-    <div class="row gap-2 justify-sb">
+    <div class="row gap-2 justify-c">
+      <% furnitures.forEach((furniture)=>{ %>
       <div class="col-12-xs col-5-sm col-3-xl">
         <div class="card rounded-radius_2 p-all_2">
           <div class="card__image m-bottom_2 rounded-radius_2">
-            <img src="images/pexels-photo-1866149.jpeg" alt="" />
+            <img src="<%= furniture.image %> " alt="" />
           </div>
           <h2 class="card__name responsive-text m-bottom_2">
-            Furniture Type 1
+            <%= furniture.name %>
           </h2>
-          <div class="card__description">
-            This is a furniture type one scalling thtrough to the very end.
-          </div>
+          <div class="card__description"><%= furniture.description %></div>
 
           <button class="m-top_2 p-x_2 p-y_1 rounded-radius_2">
             Open Gallery
           </button>
         </div>
       </div>
-      <div class="col-12-xs col-5-sm col-3-xl">
-        <div class="card rounded-radius_2 p-all_2">
-          <div class="card__image m-bottom_2 rounded-radius_2">
-            <img src="images/pexels-photo-1866149.jpeg" alt="" />
-          </div>
-          <h2 class="card__name responsive-text m-bottom_2">
-            Furniture Type 1
-          </h2>
-          <div class="card__description">
-            This is a furniture type one scalling thtrough to the very end.
-          </div>
-
-          <button class="m-top_2 p-x_2 p-y_1 rounded-radius_2">
-            Open Gallery
-          </button>
-        </div>
-      </div>
-      <div class="col-12-xs col-5-sm col-3-xl">
-        <div class="card rounded-radius_2 p-all_2">
-          <div class="card__image m-bottom_2 rounded-radius_2">
-            <img src="images/pexels-photo-1866149.jpeg" alt="" />
-          </div>
-          <h2 class="card__name responsive-text m-bottom_2">
-            Furniture Type 1
-          </h2>
-          <div class="card__description">
-            This is a furniture type one scalling thtrough to the very end.
-          </div>
-
-          <button class="m-top_2 p-x_2 p-y_1 rounded-radius_2">
-            Open Gallery
-          </button>
-        </div>
-      </div>
+      <% }); %>
     </div>
   </main>
 
