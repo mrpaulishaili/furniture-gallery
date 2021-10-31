@@ -23,15 +23,16 @@
   },
   "homepage": "https://github.com/mrpaulishaili/furniture-gallery#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "gulp-purgecss": "^4.0.3"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^5.0.0",
     "nodemon": "^2.0.14",
     "purgecss": "^4.0.3",
-    "sass": "^1.43.4"
+    "sass": "^1.43.4",
+    "gulp-purgecss": "^4.0.3"
   }
 }
