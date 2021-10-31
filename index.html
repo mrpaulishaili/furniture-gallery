@@ -1,3 +1,4 @@
+<!-- USING .HTML FILE TO PURGE CSS -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,45 +18,231 @@
     />
 
     <!-- FRAMEWORK -->
-    <link rel="stylesheet" href="./assets/css/framework.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/framework.css" /> -->
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
-  <body class="p-all_1">
-    <div class="header p-all_2 flex flex-j-sb">
-      <div class="logo">Furnitiure Gallery</div>
-      <div class="menu-icon">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
-          fill="currentColor"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M4 6h16M4 12h16M4 18h16"
-          />
-        </svg>
-      </div>
-    </div>
-    <div class="app flex flex-all-center flex-column p-all_p2">
-      <div class="cards p-all_2">
-        <div class="card p-all_3">
-          <div class="card__image m-bottom_2">
-            <img src="images/pexels-photo-1866149.jpeg" alt="" />
-          </div>
-          <div class="card__name">Furniture Type 1</div>
-          <div class="card__description">
-            This is a furniture type one scalling thtrough to the very end.
-          </div>
+  <body class="p-all_2">
+    <!-- -----HEADER ----- -->
 
-          <button class="m-top_2 p-all_1 rounded-radius_2">Open Gallery</button>
+    <header class="header p-all_2 flex flex-j-sb">
+      <div class="logo">Furnitiure Gallery</div>
+      <div class="flex">
+        <div class="theme-toggle m-right_2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
+            ></path>
+          </svg>
+        </div>
+        <div class="menu-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+          </svg>
         </div>
       </div>
-    </div>
+    </header>
+
+    <!-- ----- MAIN ----- -->
+    <main class="app">
+      <h1 class="m-bottom_1 flex justify-c">TOP COLLECTIONS</h1>
+
+      <div class="row gap-2 justify-c">
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="card modal-trigger rounded-radius_2 p-all_2">
+            <div class="card__image m-bottom_2 rounded-radius_2">
+              <img src="/images/pexels-photo-1866149.jpeg " alt="" />
+            </div>
+            <h2 class="card__name m-bottom_2">Sofas</h2>
+            <div class="card__description">
+              a brief entitled description of the newly made furniture 1 for all
+              and sundry
+            </div>
+
+            <button class="m-top_2 p-x_2 p-y_1 rounded-radius_2">
+              Open Gallery
+            </button>
+          </div>
+        </div>
+
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="card modal-trigger rounded-radius_2 p-all_2">
+            <div class="card__image m-bottom_2 rounded-radius_2">
+              <img src="/images/855882.jpg " alt="" />
+            </div>
+            <h2 class="card__name m-bottom_2">Dining Tables</h2>
+            <div class="card__description">
+              a brief entitled description of the newly made furniture 2 for all
+              and sundry
+            </div>
+
+            <button class="m-top_2 p-x_2 p-y_1 rounded-radius_2">
+              Open Gallery
+            </button>
+          </div>
+        </div>
+
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="card modal-trigger rounded-radius_2 p-all_2">
+            <div class="card__image m-bottom_2 rounded-radius_2">
+              <img src="/images/351124.jpg " alt="" />
+            </div>
+            <h2 class="card__name m-bottom_2">Dining Chairs</h2>
+            <div class="card__description">
+              a brief entitled description of the newly made furniture 3 for all
+              and sundry
+            </div>
+
+            <button class="m-top_2 p-x_2 p-y_1 rounded-radius_2">
+              Open Gallery
+            </button>
+          </div>
+        </div>
+
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="card modal-trigger rounded-radius_2 p-all_2">
+            <div class="card__image m-bottom_2 rounded-radius_2">
+              <img src="/images/M77397.jpg " alt="" />
+            </div>
+            <h2 class="card__name m-bottom_2">Mattresses</h2>
+            <div class="card__description">
+              a brief entitled description of the newly made furniture 4 for all
+              and sundry
+            </div>
+
+            <button class="m-top_2 p-x_2 p-y_1 rounded-radius_2">
+              Open Gallery
+            </button>
+          </div>
+        </div>
+
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="card modal-trigger rounded-radius_2 p-all_2">
+            <div class="card__image m-bottom_2 rounded-radius_2">
+              <img src="/images/A18950s.jpg " alt="" />
+            </div>
+            <h2 class="card__name m-bottom_2">Bookcases</h2>
+            <div class="card__description">
+              a brief entitled description of the newly made furniture 5 for all
+              and sundry
+            </div>
+
+            <button class="m-top_2 p-x_2 p-y_1 rounded-radius_2">
+              Open Gallery
+            </button>
+          </div>
+        </div>
+
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="card modal-trigger rounded-radius_2 p-all_2">
+            <div class="card__image m-bottom_2 rounded-radius_2">
+              <img src="/images/851741.jpg " alt="" />
+            </div>
+            <h2 class="card__name m-bottom_2">Shelves</h2>
+            <div class="card__description">
+              a brief entitled description of the newly made furniture 6 for all
+              and sundry
+            </div>
+
+            <button class="m-top_2 p-x_2 p-y_1 rounded-radius_2">
+              Open Gallery
+            </button>
+          </div>
+        </div>
+
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="card modal-trigger rounded-radius_2 p-all_2">
+            <div class="card__image m-bottom_2 rounded-radius_2">
+              <img src="/images/M17021s.jpg " alt="" />
+            </div>
+            <h2 class="card__name m-bottom_2">Stools</h2>
+            <div class="card__description">
+              a brief entitled description of the newly made furniture 7 for all
+              and sundry
+            </div>
+
+            <button class="m-top_2 p-x_2 p-y_1 rounded-radius_2">
+              Open Gallery
+            </button>
+          </div>
+        </div>
+
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="card modal-trigger rounded-radius_2 p-all_2">
+            <div class="card__image m-bottom_2 rounded-radius_2">
+              <img src="/images/358761s.jpg " alt="" />
+            </div>
+            <h2 class="card__name m-bottom_2">Wardrobes</h2>
+            <div class="card__description">
+              a brief entitled description of the newly made furniture 7 for all
+              and sundry
+            </div>
+
+            <button class="m-top_2 p-x_2 p-y_1 rounded-radius_2">
+              Open Gallery
+            </button>
+          </div>
+        </div>
+
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="card modal-trigger rounded-radius_2 p-all_2">
+            <div class="card__image m-bottom_2 rounded-radius_2">
+              <img src="/images/392337.jpg " alt="" />
+            </div>
+            <h2 class="card__name m-bottom_2">Cabinets</h2>
+            <div class="card__description">
+              a brief entitled description of the newly made furniture 8 for all
+              and sundry
+            </div>
+
+            <button class="m-top_2 p-x_2 p-y_1 rounded-radius_2">
+              Open Gallery
+            </button>
+          </div>
+        </div>
+
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="card modal-trigger rounded-radius_2 p-all_2">
+            <div class="card__image m-bottom_2 rounded-radius_2">
+              <img src="/images/264124.jpg " alt="" />
+            </div>
+            <h2 class="card__name m-bottom_2">TV Units</h2>
+            <div class="card__description">
+              a brief entitled description of the newly made furniture 8 for all
+              and sundry
+            </div>
+
+            <button class="m-top_2 p-x_2 p-y_1 rounded-radius_2">
+              Open Gallery
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ----- FOOTER ----- -->
+
+    <script src="/script/modal.js"></script>
   </body>
 </html>

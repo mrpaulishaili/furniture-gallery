@@ -6,18 +6,16 @@
 
   <!-- ----- MAIN ----- -->
   <main class="app">
-    <h1 class="m-bottom_1 flex justify-c">GRID SYSTEM</h1>
+    <h1 class="m-bottom_1 flex justify-c">TOP COLLECTIONS</h1>
 
     <div class="row gap-2 justify-c">
       <% furnitures.forEach((furniture)=>{ %>
       <div class="col-12-xs col-5-sm col-3-xl">
-        <div class="card rounded-radius_2 p-all_2">
+        <div class="card modal-trigger rounded-radius_2 p-all_2">
           <div class="card__image m-bottom_2 rounded-radius_2">
             <img src="<%= furniture.image %> " alt="" />
           </div>
-          <h2 class="card__name responsive-text m-bottom_2">
-            <%= furniture.name %>
-          </h2>
+          <h2 class="card__name m-bottom_2"><%= furniture.name %></h2>
           <div class="card__description"><%= furniture.description %></div>
 
           <button class="m-top_2 p-x_2 p-y_1 rounded-radius_2">
@@ -32,4 +30,6 @@
   <!-- ----- FOOTER ----- -->
 
   <%- include('components/footer'); %>
+
+  <script src="/script/modal.js"></script>
 </body>
