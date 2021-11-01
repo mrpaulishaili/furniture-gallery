@@ -117,6 +117,9 @@ button {
 .gap-2 > * {
   padding: 20px;
 }
+.gap-1 > * {
+  padding: 10px;
+}
 @media (min-width: 0) {
   .col-12-xs {
     flex-grow: 0;
