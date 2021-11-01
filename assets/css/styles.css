@@ -17,6 +17,11 @@ body {
 .header {
   background-color: #fff;
 }
+.footer {
+  background-color: hsl(160, 67%, 14%);
+  color: #fff;
+  margin: 0 -20px;
+}
 .card {
   background-color: #fff;
   width: 100%;
