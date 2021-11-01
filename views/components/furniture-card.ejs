@@ -1,0 +1,13 @@
+<% furnitures.forEach((furniture)=>{ %>
+<div class="col-12-xs col-5-sm col-3-xl">
+  <div class="card modal-trigger rounded-radius_2 p-all_2">
+    <div class="card__image m-bottom_2 rounded-radius_2">
+      <img src="<%= furniture.image %> " alt="" />
+    </div>
+    <h2 class="card__name m-bottom_2"><%= furniture.name %></h2>
+    <div class="card__description"><%= furniture.description %></div>
+
+    <button class="m-top_2 p-x_2 p-y_1 rounded-radius_2">Open Gallery</button>
+  </div>
+</div>
+<% }); %>

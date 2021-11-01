@@ -5,13 +5,15 @@ body {
   width: 100%;
 }
 .menu-icon,
-.theme-toggle {
+.theme-toggle,
+.search-icon {
   height: 1.5rem;
   width: 1.5rem;
   cursor: pointer;
 }
 .menu-icon:hover,
-.theme-toggle:hover {
+.theme-toggle:hover,
+.search-icon :hover {
   opacity: 0.5;
 }
 .header {
