@@ -1,6 +1,6 @@
 <%- include('modules/head'); %>
 <body
-  class="p-all_2"
+  class=""
   style="
     background-attachment: fixed;
     background-position: center center;
@@ -11,7 +11,7 @@
   "
 >
   <!-- -----HEADER ----- -->
-  <header class="m-bottom_2"><%- include('components/header'); %></header>
+  <header class="m-all_2"><%- include('components/header'); %></header>
 
   <!-- ----- MAIN ----- -->
   <main class="app">
@@ -58,7 +58,9 @@
   <nav class="nav close"><%- include('components/navbar'); %></nav>
 
   <!-- ----- FOOTER ----- -->
-  <footer><%- include('components/footer'); %></footer>
+  <footer class="footer flex justify-c p-all_2">
+    <%- include('components/footer'); %>
+  </footer>
 
   <script src="/script/script.js" type="module"></script>
 </body>

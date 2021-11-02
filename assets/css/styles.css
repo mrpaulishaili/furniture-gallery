@@ -22,7 +22,6 @@ body {
 .footer {
   background-color: hsl(160, 67%, 14%);
   color: #fff;
-  margin: 0 -20px;
 }
 .card {
   background-color: #fff;
@@ -146,4 +145,5 @@ html {
 body {
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
