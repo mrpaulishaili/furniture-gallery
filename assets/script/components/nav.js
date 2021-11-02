@@ -1,10 +1,15 @@
-const navContainer = document.querySelector(".nav");
+const navContainer = document.querySelector(".side-nav");
 const triggerOpens = document.querySelectorAll(".trigger-open");
 const triggerCloses = document.querySelectorAll(".trigger-close");
 
 triggerOpens.forEach((triggerOpen) => {
   triggerOpen.addEventListener("click", () => {
     toggleTrigger(navContainer);
+  });
+});
+triggerCloses.forEach((triggerClose) => {
+  triggerClose.addEventListener("click", () => {
+    closeTrigger(navContainer);
   });
 });
 

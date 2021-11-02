@@ -1,14 +1,16 @@
 body {
   font-family: "Roboto Condensed", sans-serif;
 }
+
+.header {
+  background-color: #fff;
+}
 .app {
   width: 100%;
 }
 
 .menu-icon,
 .theme-toggle {
-  height: 1.5rem;
-  width: 1.5rem;
   cursor: pointer;
 
   &:hover {
@@ -16,11 +18,19 @@ body {
   }
 }
 
+.closeTrigger {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2rem;
+}
+
 .card {
   width: 100%;
   display: block;
   box-shadow: 0 0 15px rgba(238, 238, 238, 0.753);
   cursor: pointer;
+  background-color: #fff;
   transition: filter 0.3s ease-in-out;
 
   &:hover {
@@ -52,4 +62,48 @@ button {
   outline: none;
   border: none;
   cursor: pointer;
+}
+
+.side-nav {
+  position: fixed;
+  top: 2.5rem;
+  right: 1rem;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  border-top: 2px solid green;
+
+  width: 100%;
+  max-width: 280px;
+
+  transition: 0.3s ease-in-out;
+  transform-origin: top;
+
+  &.close {
+    transform: scaleY(0);
+  }
+
+  &.open {
+    transform: scaleY(1);
+  }
+
+  ul {
+    list-style: none;
+    margin-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  li {
+    height: 48px;
+  }
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+  }
+}
+
+.svgContainer {
+  height: 1.5rem;
+  width: 1.5rem;
 }
