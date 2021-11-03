@@ -1,0 +1,68 @@
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(109, 128, 0, 0.5);
+  overflow: hidden;
+  transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) all;
+  z-index: 100;
+
+  transform: scale(1);
+  opacity: 1;
+
+  .modal {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    display: none;
+
+    &.active {
+      display: flex;
+    }
+  }
+
+  &-close {
+    width: 100%;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    cursor: pointer;
+
+    &:hover {
+      color: red;
+    }
+  }
+
+  .svgContainer {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  &.close {
+    transform: scale(0);
+    opacity: 0;
+    pointer-events: none;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .btn {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 128, 0, 0.13);
+    transition: 0.3s ease-in-out;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+
+    &:hover {
+      background-color: green;
+      color: #fff;
+    }
+
+    &:last-child:hover {
+      background-color: red;
+    }
+  }
+}

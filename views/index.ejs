@@ -36,12 +36,12 @@
 
       <div class="trending-designs">
         <h1
-          class="m-bottom_1 flex p-all_2 justify-c rounded-radius_2"
+          class="flex p-all_2 justify-c rounded-radius_2"
           style="
             color: whitesmoke;
             background-color: hsla(160, 67%, 14%, 0.7);
             max-width: max-content;
-            margin: 0 auto;
+            margin: 20px auto;
           "
         >
           TRENDING DESIGNS
@@ -57,8 +57,13 @@
   <!-- NAV -->
   <nav class="side-nav close"><%- include('components/navbar'); %></nav>
 
+  <!-- MODAL -->
+  <div class="modal-container close p-all_2 dis-flex jus-cont-c align-items-c">
+    <%- include('components/modal'); %>
+  </div>
+
   <!-- ----- FOOTER ----- -->
-  <footer class="footer flex justify-c p-all_2">
+  <footer class="footer dis-flex jus-cont-c align-items-c p-all_2">
     <%- include('components/footer'); %>
   </footer>
 

@@ -1,0 +1,38 @@
+.side-nav {
+  position: fixed;
+  top: 2.5rem;
+  right: 1rem;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  border-top: 2px solid green;
+
+  width: 100%;
+  max-width: 280px;
+
+  transition: 0.3s ease-in-out;
+  transform-origin: top;
+
+  &.close {
+    transform: scaleY(0);
+  }
+
+  &.open {
+    transform: scaleY(1);
+  }
+
+  ul {
+    list-style: none;
+    margin-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  li {
+    height: 48px;
+  }
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+  }
+}

@@ -81,3 +81,7 @@ app.get("/", (req, res) => {
   ];
   res.render("index", { furnitures: furnitures });
 });
+
+app.get("/auth", (req, res) => {
+  res.render("auth");
+});

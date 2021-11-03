@@ -1,0 +1,37 @@
+<%- include('modules/head'); %>
+<body
+  class=""
+  style="
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-image: url('/images/bg-2.jpg');
+    background-color: hsla(160, 67%, 14%, 0.4);
+    background-blend-mode: soft-light;
+  "
+>
+  <!-- -----HEADER ----- -->
+  <header class="m-all_2"><%- include('components/header'); %></header>
+
+  <!-- ----- MAIN ----- -->
+  <main class="app">
+    <div class="main">
+      <div class="form-container"></div>
+    </div>
+  </main>
+
+  <!-- NAV -->
+  <nav class="side-nav close"><%- include('components/navbar'); %></nav>
+
+  <!-- MODAL -->
+  <div class="modal-container close p-all_2 dis-flex jus-cont-c align-items-c">
+    <%- include('components/modal'); %>
+  </div>
+
+  <!-- ----- FOOTER ----- -->
+  <footer class="footer dis-flex jus-cont-c align-items-c p-all_2">
+    <%- include('components/footer'); %>
+  </footer>
+
+  <script src="/script/script.js" type="module"></script>
+</body>
