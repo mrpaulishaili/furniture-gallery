@@ -1,0 +1,18 @@
+.furniture-cards {
+  > div {
+    .card {
+      // width: 100%;
+      box-shadow: 0 2px 8px #1b1502cb;
+      background-color: #1b1502cb;
+    }
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

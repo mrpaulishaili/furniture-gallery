@@ -18,25 +18,25 @@
     <div class="main">
       <div class="top-collections">
         <h1
-          class="m-bottom_1 flex p-all_2 justify-c rounded-radius_2"
+          class="flex p-all_2 p-bottom_1 justify-c rounded-radius_2"
           style="
             color: whitesmoke;
             background-color: hsla(160, 67%, 14%, 0.7);
             max-width: max-content;
-            margin: 0 auto;
+            margin: 0 auto 20px auto;
           "
         >
           TOP COLLECTIONS
         </h1>
 
-        <div class="furniture-cards row gap-1 justify-c">
-          <%- include('components/furniture-card'); %>
+        <div class="collections-cards row gap-1 justify-c">
+          <%- include('components/collection'); %>
         </div>
       </div>
 
       <div class="trending-designs">
         <h1
-          class="flex p-all_2 justify-c rounded-radius_2"
+          class="dis-grid p-all_2 justify-c rounded-radius_2"
           style="
             color: whitesmoke;
             background-color: hsla(160, 67%, 14%, 0.7);
@@ -47,7 +47,7 @@
           TRENDING DESIGNS
         </h1>
 
-        <div class="furniture-cards row gap-1 justify-c">
+        <div class="furniture-cards row gap-1">
           <%- include('components/furniture-card'); %>
         </div>
       </div>

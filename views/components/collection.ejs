@@ -1,0 +1,17 @@
+<% collections.forEach((collection)=>{ %>
+<div class="col-12-xs col-6-sm col-3-xl">
+  <div
+    class="card modal-trigger rounded-radius_2 p-all_2 open-modal collection"
+  >
+    <div class="card__number"><%= collection.number %></div>
+    <div class="card__image m-bottom_2 rounded-radius_2">
+      <img src="<%= collection.image %> " alt="" />
+    </div>
+    <h2 class="card__name m-bottom_2"><%= collection.name %></h2>
+    <div class="card__description"><%= collection.description %></div>
+
+    <button class="m-top_2 p-x_2 p-y_1 rounded-radius_2">Open Gallery</button>
+  </div>
+</div>
+
+<% }); %>

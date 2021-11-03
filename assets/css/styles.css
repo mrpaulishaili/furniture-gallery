@@ -60,6 +60,22 @@ button {
   min-height: 100%;
 }
 
+.furniture-cards > div .card {
+  -webkit-box-shadow: 0 2px 8px #1b1502cb;
+          box-shadow: 0 2px 8px #1b1502cb;
+  background-color: #1b1502cb;
+}
+
+.furniture-cards > div img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
 .modal-container {
   position: fixed;
   top: 0;
@@ -195,6 +211,28 @@ button {
   transition: -webkit-filter 0.3s ease-in-out;
   transition: filter 0.3s ease-in-out;
   transition: filter 0.3s ease-in-out, -webkit-filter 0.3s ease-in-out;
+  position: relative;
+}
+
+.card .card__number {
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
 }
 
 .card:hover {
