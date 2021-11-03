@@ -1,0 +1,62 @@
+.form-container {
+  padding: 20px 2rem;
+  background-color: #fff;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  border-radius: 20px;
+  padding-bottom: 2rem;
+
+  .form {
+    &-tab {
+      &:first-child {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+      &:last-child {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+      padding: 20px;
+
+      &:hover {
+        cursor: pointer;
+        background-color: rgba(0, 128, 0, 0.356);
+      }
+      &.active {
+        background-color: green;
+        color: white;
+
+        &:hover {
+          background-color: green;
+        }
+      }
+
+      &-content {
+        display: none;
+        &.active {
+          display: block;
+        }
+      }
+    }
+    &-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+    }
+
+    label {
+      font-size: 0.8rem;
+      margin-bottom: 5px;
+    }
+
+    input {
+      padding: 14px 1rem;
+      border-radius: 10px;
+      outline: none;
+      width: 100%;
+      border: 1px solid green;
+      font-size: 1rem;
+    }
+  }
+}

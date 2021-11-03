@@ -34,6 +34,9 @@ button {
   border: none;
   cursor: pointer;
 }
+.w-full {
+  width: 100%;
+}
 @import "./layouts/all";
 
 @import "./components/all";
