@@ -1,17 +1,19 @@
 .side-nav {
   position: fixed;
-  top: 2.5rem;
+  top: 7rem;
   right: 1rem;
-  padding: 20px;
+  padding: 10px;
   background-color: #fff;
   border-radius: 20px;
-  border-top: 2px solid green;
+  box-shadow: 0 3px 5px rgba(green, 0.3);
 
   width: 100%;
-  max-width: 280px;
+  max-width: 250px;
 
   transition: 0.3s ease-in-out;
   transform-origin: top;
+
+  z-index: 1000;
 
   &.close {
     transform: scaleY(0);

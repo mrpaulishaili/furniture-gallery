@@ -161,18 +161,20 @@ button {
 
 .side-nav {
   position: fixed;
-  top: 2.5rem;
+  top: 7rem;
   right: 1rem;
-  padding: 20px;
+  padding: 10px;
   background-color: #fff;
   border-radius: 20px;
-  border-top: 2px solid green;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 128, 0, 0.3);
+          box-shadow: 0 3px 5px rgba(0, 128, 0, 0.3);
   width: 100%;
-  max-width: 280px;
+  max-width: 250px;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   -webkit-transform-origin: top;
           transform-origin: top;
+  z-index: 1000;
 }
 
 .side-nav.close {

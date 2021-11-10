@@ -1,7 +1,7 @@
-const navContainer = document.querySelector("nav-list");
+const navContainer = document.querySelector(".side-nav");
 const triggerOpens = document.querySelectorAll(".trigger-open");
 const triggerCloses = document.querySelectorAll(".trigger-close");
-const triggerToggle = document.querySelectorAll(".trigger-toggle");
+const triggerToggles = document.querySelectorAll(".trigger-toggle");
 
 triggerOpens.forEach((triggerOpen) => {
   triggerOpen.addEventListener("click", () => {
@@ -37,3 +37,7 @@ function toggleTrigger(elem) {
     elem.classList.add("open");
   }
 }
+
+window.addEventListener("scroll", () => {
+  closeTrigger(navContainer);
+});
