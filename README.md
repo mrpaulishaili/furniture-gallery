@@ -1,6 +1,9 @@
 # Furniture Gallery App
 This is an app project for Furniture Designers &amp; Makers to showcase their works and products easily to potential clients.
 <p>These product feature will be based on tabs categories</p>
+
+<h2>Why this Project?<h2>
+  <p>People over the years have experienced a lot of difficulties in getting their desired designs on furnitures into reality, that they have to opt-to choosing not-their-choice, or rather a too expensive choice for their desired furniture taste, leaving them somewhat disatisfies. </p>
 <h4>The Layout Interface</h4>
 <ul>
   <li>Login & Create Account Section</li>
