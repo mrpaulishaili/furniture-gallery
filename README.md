@@ -19,6 +19,13 @@ This is an app project for Furniture Designers &amp; Makers to showcase their wo
   <li>Product Client</li>
   <li>Product Estimation as at when.</li>
 </ul>
+<h4>Product Filter</h4>
+<ul>
+  <li>Price - High, Low, Specific Price</li>
+  <li>Availability - in-production, available for shipping</li>
+  <li>Store Location - within , outside</li>
+  
+</ul>
 <h4>Web Technologies</h4>
 <ul>
   <li>Vue.js => For the frontend development framework</li>
