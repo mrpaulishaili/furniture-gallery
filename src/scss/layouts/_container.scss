@@ -2,10 +2,16 @@
   .card {
     background-color: transparent;
     padding: 5px;
-    box-shadow: 0 3px 5px rgba(216, 203, 15, 0.644);
+    box-shadow: 0 0px 5px rgba(20, 226, 20, 0.74);
 
     &__image {
       margin-bottom: 0;
     }
   }
+}
+
+.trending-designs {
+  background-color: rgb(1, 12, 7);
+  padding: 20px 0;
+  padding-bottom: 2rem;
 }
