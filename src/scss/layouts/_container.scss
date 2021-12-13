@@ -15,3 +15,52 @@
   padding: 20px 0;
   padding-bottom: 2rem;
 }
+
+.hero {
+  padding: 20px;
+}
+.hero-intro {
+  border: 1px solid #444;
+  color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  min-height: calc(100vh - 8rem);
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 150%;
+
+  > * {
+    height: auto;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  p {
+    line-height: 1.6;
+  }
+
+  button {
+    font-size: 1.2rem;
+    padding: 0.8rem 2rem;
+    border: 1px solid rgb(1, 12, 7);
+
+    &:hover {
+      background-color: rgb(1, 12, 7);
+      color: #f3f3f3;
+    }
+  }
+  .action {
+    margin-top: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @media (min-width: 620px) {
+      gap: 20px;
+    }
+  }
+}

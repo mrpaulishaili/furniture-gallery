@@ -85,72 +85,9 @@ button {
   padding-bottom: 2rem;
 }
 
-.hero {
-  padding: 20px;
-}
-
 .hero-intro {
-  border: 1px solid #444;
-  color: #fff;
-  border-radius: 20px;
+  background-color: #fff;
   padding: 20px;
-  min-height: calc(100vh - 8rem);
-  width: 100%;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 2rem;
-  font-size: 150%;
-}
-
-.hero-intro > * {
-  height: auto;
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.hero-intro p {
-  line-height: 1.6;
-}
-
-.hero-intro button {
-  font-size: 1.2rem;
-  padding: 0.8rem 2rem;
-  border: 1px solid #010c07;
-}
-
-.hero-intro button:hover {
-  background-color: #010c07;
-  color: #f3f3f3;
-}
-
-.hero-intro .action {
-  margin-top: -20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-@media (min-width: 620px) {
-  .hero-intro .action {
-    gap: 20px;
-  }
 }
 
 .modal-container {
@@ -277,9 +214,6 @@ button {
   text-decoration: none;
   font-weight: bold;
   color: green;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .card {
@@ -447,3 +381,4 @@ button {
   -o-object-fit: contain;
      object-fit: contain;
 }
+/*# sourceMappingURL=styles.css.map */
