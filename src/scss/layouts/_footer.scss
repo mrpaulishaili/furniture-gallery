@@ -1,4 +1,7 @@
 .footer {
   background-color: hsla(160, 67%, 14%, 1);
   color: #fff;
+  display: flex;
+  line-height: 1;
+  flex-direction: column;
 }
